@@ -4,6 +4,7 @@ using Assets.Engine.Other;
 using System.Collections.Generic;
 using Assets.Engine.AI.Flocking;
 using Assets.Engine.SimpleArrow;
+using Engine.ComputerGraphics.Component;
 
 public class SwarmController : MonoBehaviour
 {

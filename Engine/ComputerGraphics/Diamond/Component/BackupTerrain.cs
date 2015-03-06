@@ -4,11 +4,27 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-namespace Assets.Engine.ComputerGraphics.Diamond.Component
+namespace Engine.ComputerGraphics.Component
 {
-    class BackupTerrain
+    public class BackupTerrain
     {
-        GameObject obj;
-        float[,] originalHeights;
+        public GameObject obj;
+        public float[,] terrainData;
+        public int startX;
+        public int startZ;
+        public int width;
+        public int height;
+
+        public BackupTerrain( GameObject obj, float[,] terrainData , 
+                              int startX , int startZ , 
+                              int width, int height )
+        {
+            this.obj = obj;
+            this.terrainData = terrainData;
+            this.startX = startX;
+            this.startZ = startZ;
+            this.width = width;
+            this.height = height;
+        }
     }
 }

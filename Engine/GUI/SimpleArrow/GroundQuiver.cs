@@ -1,5 +1,6 @@
 ﻿using Assets.Engine.ComputerGraphics.Bezier;
 using Assets.Engine.Other;
+using Engine.ComputerGraphics.Component;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -6,6 +6,7 @@ using Assets.Engine.AI.FiniteStateMachine;
 using Assets.Engine.AI.FiniteStateMachine.States;
 using Assets.Engine.SimpleArrow;
 using Engine.Characters.Entity;
+using Engine.ComputerGraphics.Component;
 
 namespace Engine.Characters.Entity.Characters
 {

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Vectrosity;
 using Assets.Engine.ComputerGraphics.Bezier;
 using Assets.Engine.SimpleArrow;
+using Engine.ComputerGraphics.Component;
 
 public class cmdTestArrow : MonoBehaviour {
 

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Engine.Characters.Entity;
 using Assets.Script;
+using Engine.ComputerGraphics.Component;
 
 namespace Engine.Characters.Entity.Characters
 {
